@@ -24,7 +24,7 @@ int main() {
     if (!result.empty()) {
         cout << "Indices: " << result[0] << ", " << result[1] << endl;
     } else {
-        cout << "No valid pair found." << endl;
+        cout << "No Valid Pair Found." << endl;
     }
 
     return 0;
