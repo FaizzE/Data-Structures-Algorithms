@@ -11,5 +11,6 @@ int main() {
     int num, i;
     cin >> num >> i;
     bitManipulation(num, i);
+    
     return 0;
 }
