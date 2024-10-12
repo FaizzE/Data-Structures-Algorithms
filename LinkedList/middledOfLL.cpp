@@ -46,6 +46,7 @@ void printFromMiddle(ListNode* head) {
     cout << endl;
 }
 
+
 int main() {
     ListNode* head = new ListNode(1);
     head->next = new ListNode(2);
