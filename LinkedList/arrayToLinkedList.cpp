@@ -8,7 +8,6 @@ public:
     
     Node(int val) : data(val), next(nullptr) {}
 };
-
 class Solution {
 public:
     Node* constructLL(vector<int>& arr) {
