@@ -4,8 +4,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class Human
-{
+class Human {
     private:
     int a;
     protected:
@@ -21,7 +20,6 @@ class Human
 };
 
 int main() {
-
     Human faiz;
     // faiz.a = 30; 
     // faiz.b = 30;
