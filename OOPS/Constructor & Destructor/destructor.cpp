@@ -17,7 +17,6 @@ class Customer
         name = "4";
         cout<<"constructor is -> "<<name<<endl;
     }
-
     Customer(string name)
     {
         // name = "Faiz";
@@ -42,6 +41,5 @@ int main() {
     Customer A1("1"),A2("2"),A3("3");
     Customer *A4 = new Customer;
     delete A4;
-
     return 0;
 }
