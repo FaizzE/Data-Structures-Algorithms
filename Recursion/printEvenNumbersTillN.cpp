@@ -11,7 +11,6 @@ void print1ToN(int N) {
     print1ToN(N-2);
     cout<<N<<" ";
 }
-
 // In simplified Way -
 void printEven(int num, int N) {
     if(num > N) return;
@@ -22,7 +21,6 @@ void printEven(int num, int N) {
     cout<<num<<" ";
     printEven(num+2, N);
 }
-
 int main() {
 
     int n = 29;
