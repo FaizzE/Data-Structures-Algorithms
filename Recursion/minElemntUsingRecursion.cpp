@@ -5,7 +5,8 @@ using namespace std;
 int minEle(int arr[], int ind, int sizeOfArr) {
     if(ind == sizeOfArr-1) return arr[ind]; 
 
-    return min(arr[ind], minEle(arr,ind+1,sizeOfArr));
+    // return min(arr[ind], minEle(arr,ind+1,sizeOfArr));
+    return max(arr[ind], minEle(arr,ind+1,sizeOfArr));
 }
 
 int main() {
